@@ -31,6 +31,7 @@ npm install --global vuepress
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
+valet park $HOME/Sites
 
 # Remove config files from $HOME (if they exist) and symlink them from .dotfiles
 trash $HOME/.zshrc
