@@ -9,12 +9,16 @@ brew 'git'
 brew 'gnupg2'
 brew 'grep'
 brew 'hub'
+brew 'libmemcached' # Needed for memcached
 brew 'mackup'
+brew 'pkg-config' # Needed for memcached
 brew 'trash'
+brew 'zlib' # Needed for memcached
 brew 'zsh'
 
 # Development
 brew 'composer'
+brew 'imagemagick'
 brew 'mosquitto'
 brew 'mysql'
 brew 'nginx'
