@@ -31,9 +31,6 @@ pecl install memcached imagick
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
-# Install global NPM packages
-npm install --global vuepress
-
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
