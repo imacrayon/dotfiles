@@ -12,6 +12,8 @@
 zmodules=(directory environment git git-info history input utility custom \
           prompt completion syntax-highlighting history-substring-search )
 
+zmodule sindresorhus/pure --source async.zsh --source pure.zsh
+
 
 ###################
 # MODULE SETTINGS #
