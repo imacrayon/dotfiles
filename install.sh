@@ -23,7 +23,7 @@ chsh -s $(which zsh)
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Install PHP extensions with PECL
-pecl install memcached imagick mosquitto-beta
+pecl install memcached imagick redis mosquitto-beta
 
 # Install global Composer packages
 /usr/local/bin/composer global require laravel/valet
