@@ -1,4 +1,4 @@
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Load Composer tools
 export PATH="$HOME/.composer/vendor/bin:$PATH"
