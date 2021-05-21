@@ -48,3 +48,5 @@ ln -s $HOME/.dotfiles/.zimrc $HOME/.zimrc
 
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
+
+ln -s $HOME/.dotfiles/.php-cs-fixer.php $HOME/.php-cs-fixer.php
